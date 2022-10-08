@@ -161,7 +161,7 @@ class Signer
         } catch (Exception $e) {
             if ($e->getCode() == 2) {
                 $message = $e->getMessage();
-                $message .= "\n应用私钥格式有误，见 https://github.com/lokielse/omnipay-alipay/wiki/FAQs";
+                $message .= "\n应用私钥格式有误，见 https://github.com/topsystem/omnipay-alipay/wiki/FAQs";
                 throw new Exception($message, $e->getCode(), $e);
             }
         }
@@ -267,7 +267,7 @@ class Signer
 
         if (! $res) {
             $message = "The public key is invalid";
-            $message .= "\n支付宝公钥格式有误，见 https://github.com/lokielse/omnipay-alipay/wiki/FAQs";
+            $message .= "\n支付宝公钥格式有误，见 https://github.com/topsystem/omnipay-alipay/wiki/FAQs";
             throw new Exception($message);
         }
 

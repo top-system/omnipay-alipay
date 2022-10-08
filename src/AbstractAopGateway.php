@@ -33,7 +33,7 @@ abstract class AbstractAopGateway extends AbstractGateway
             'signType'  => 'RSA',
             'version'   => '1.0',
             'timestamp' => date('Y-m-d H:i:s'),
-            'alipaySdk' => 'lokielse/omnipay-alipay',
+            'alipaySdk' => 'topsystem/omnipay-alipay',
         ];
     }
 

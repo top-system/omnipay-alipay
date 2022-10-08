@@ -17,7 +17,7 @@ abstract class AbstractLegacyGateway extends AbstractGateway
             'inputCharset' => 'UTF-8',
             'signType'     => 'MD5',
             'paymentType'  => '1',
-            'alipaySdk'    => 'lokielse/omnipay-alipay',
+            'alipaySdk'    => 'topsystem/omnipay-alipay',
         ];
     }
 
