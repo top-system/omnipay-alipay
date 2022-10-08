@@ -12,13 +12,13 @@
 [Omnipay](https://github.com/omnipay/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP. This package implements Alipay support for Omnipay.
 
-> Cross-border Alipay payment please use [`topsystem/omnipay-global-alipay`](https://github.com/topsystem/omnipay-global-alipay)
+> Cross-border Alipay payment please use [`lokielse/omnipay-global-alipay`](https://github.com/lokielse/omnipay-global-alipay)
 
-> Legacy Version please use [`"topsystem/omnipay-alipay": "dev-legacy"`](https://github.com/topsystem/omnipay-alipay/tree/legacy)
+> Legacy Version please use [`"lokielse/omnipay-alipay": "dev-legacy"`](https://github.com/lokielse/omnipay-alipay/tree/legacy)
 
 ## Installation
 
-    composer require topsystem/omnipay-alipay
+    composer require topsystem/omnipay-alipay:dev-master
 
 ## Basic Usage
 
